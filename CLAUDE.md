@@ -46,11 +46,9 @@ persona 프로젝트의 메타 레포. 코드가 아닌 **설계, 논의, 발견
 ## 관련 레포
 
 - **ironluffy/persona** — CLI 코드 레포 (코드 변경, 코드 버그는 여기)
-- **ironluffy/DongminKang** — 강동민의 persona 인스턴스 데이터
 - **ironluffy/persona-story** — 이 레포 (설계, 논의, 기록)
 
 ## 이슈 라우팅 가이드
 
 - 코드 버그, 코드 변경 PR → `ironluffy/persona`
 - 설계 논의, 발견 기록, 백로그, 독푸딩 → `ironluffy/persona-story` (여기)
-- 개인 인스턴스 데이터, 프레임 설정 → `ironluffy/DongminKang`
