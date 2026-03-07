@@ -1,6 +1,6 @@
 # persona-story
 
-[persona](https://github.com/ironluffy/persona) 프로젝트의 메타 레포.
+[persona](https://github.com/Eye-of-the-Moon/persona) 프로젝트의 메타 레포.
 코드가 아닌 **설계 결정, 아키텍처 논의, 발견 기록, 독푸딩 피드백, 백로그**를 관리한다.
 
 persona는 Personal OS CLI — AI 대화, 생각, 활동을 캡처하고 분석하여 성장을 추적하는 도구.
@@ -25,16 +25,16 @@ Layer 4: Inject     — 학습을 Claude Code 세션에 자동 주입
 
 | 레포 | 역할 |
 |------|------|
-| [persona](https://github.com/ironluffy/persona) | CLI 코드 (Python 3.13+, Click, Supabase) |
-| [persona-story](https://github.com/ironluffy/persona-story) | 설계, 논의, 기록 (여기) |
+| [persona](https://github.com/Eye-of-the-Moon/persona) | CLI 코드 (Python 3.13+, Click, Supabase) |
+| [persona-story](https://github.com/Eye-of-the-Moon/persona-story) | 설계, 논의, 기록 (여기) |
 
 ## 로드맵
 
 | 순서 | 이슈 | 내용 |
 |------|------|------|
-| 1 | [#9](https://github.com/ironluffy/persona-story/issues/9) Source 태깅 | git remote 자동 감지 → source_org/repo 메타데이터 |
-| 2 | [#10](https://github.com/ironluffy/persona-story/issues/10) 모니터링 | today/week에 source 분류 + --from/--to 유연한 기간 |
-| 3 | [#17](https://github.com/ironluffy/persona-story/issues/17) 릴리즈 | v0.1.0 태그 + 멀티 머신 설치 |
-| 4 | [#22](https://github.com/ironluffy/persona-story/issues/22) Pattern | Claude Code tool_use 파싱 → 행동 분석 |
-| 5 | [#5](https://github.com/ironluffy/persona-story/issues/5) Frame | markdown 기반 분석 렌즈 → reflect --frame |
-| 6 | [#23](https://github.com/ironluffy/persona-story/issues/23) Inject | SessionStart hook → CLAUDE.md + memory/ 자동 주입 |
+| 1 | [#9](https://github.com/Eye-of-the-Moon/persona-story/issues/9) Source 태깅 | git remote 자동 감지 → source_org/repo 메타데이터 |
+| 2 | [#10](https://github.com/Eye-of-the-Moon/persona-story/issues/10) 모니터링 | today/week에 source 분류 + --from/--to 유연한 기간 |
+| 3 | [#17](https://github.com/Eye-of-the-Moon/persona-story/issues/17) 릴리즈 | v0.1.0 태그 + 멀티 머신 설치 |
+| 4 | [#22](https://github.com/Eye-of-the-Moon/persona-story/issues/22) Pattern | Claude Code tool_use 파싱 → 행동 분석 |
+| 5 | [#5](https://github.com/Eye-of-the-Moon/persona-story/issues/5) Frame | markdown 기반 분석 렌즈 → reflect --frame |
+| 6 | [#23](https://github.com/Eye-of-the-Moon/persona-story/issues/23) Inject | SessionStart hook → CLAUDE.md + memory/ 자동 주입 |
