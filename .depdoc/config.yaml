@@ -1,0 +1,24 @@
+types:
+  decision:
+    dir: decisions/
+    fields:
+    - status
+    - depends_on
+    - supersedes
+    prefix: DEC
+  experiment:
+    dir: experiments/
+    fields:
+    - hypothesis
+    - result
+    - validates
+    prefix: EXP
+  log:
+    dir: log/
+    fields:
+    - participants
+    prefix: LOG
+  research:
+    dir: research/
+    fields: []
+    prefix: RES

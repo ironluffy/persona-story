@@ -38,3 +38,17 @@ Layer 4: Inject     — 학습을 Claude Code 세션에 자동 주입
 | 4 | [#22](https://github.com/Eye-of-the-Moon/persona-story/issues/22) Pattern | Claude Code tool_use 파싱 → 행동 분석 |
 | 5 | [#5](https://github.com/Eye-of-the-Moon/persona-story/issues/5) Frame | markdown 기반 분석 렌즈 → reflect --frame |
 | 6 | [#23](https://github.com/Eye-of-the-Moon/persona-story/issues/23) Inject | SessionStart hook → CLAUDE.md + memory/ 자동 주입 |
+
+## Index
+
+### Decision
+- [DEC-001: persona 프로젝트 — Write→Search→Reflect→Inject 루프](decisions/persona-프로젝트-writesearchreflectinject-루프.md)
+- [DEC-002: Inject 재설계 — 3-Pronged Approach](decisions/inject-재설계-3-pronged-approach.md)
+- [DEC-003: Auto-capture — prompt hook에서 command hook으로](decisions/auto-capture-prompt-hook에서-command.md)
+
+### Log
+- [LOG-001: Dogfooding 발견 — UX, 데이터 모델, 실사용 패턴](log/dogfooding-발견-ux-데이터-모델-실사용-패턴.md)
+- [LOG-002: persona 실사용 패턴 — 누가 어떻게 쓰는가](log/persona-실사용-패턴-누가-어떻게-쓰는가.md)
+
+### Study
+- [gcc-2026-03-23: ](docs/gcc-2026-03-23.md)
